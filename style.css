@@ -786,6 +786,7 @@ h1 {
   position: relative;
   display: flex;
   justify-content: center;
+  padding-bottom: 220px;
 }
 .barre-verticale {
   height: 1000px;
@@ -851,6 +852,9 @@ h1 {
 .bloc4{
   background: #d0e2ec;
 }
+.bloc5{
+  background: #de9c9c;
+}
 .titre-section-bloc{
   font-family: 'Abril Fatface', sans-serif;
   font-size: 25px;
@@ -879,17 +883,23 @@ h1 {
     font-size: 16px;
   }
   .bloc{
-    height: 400px;
+    height: 380px;
   }
   .barre-verticale{
-    height: 1800px;
-  }
-  
-}
-@media screen and (max-width:380px) {
-  .txt-section{
-font-size: 15px;
-  }
+    height: 1900px;
+      }
+      
+    }
+    @media screen and (max-width:380px) {
+      .txt-section{
+        font-size: 12px;
+      }
+      .bloc{
+        height: 320px;
+      }
+      .barre-verticale{
+        height: 1600px;
+          }
 }
 
 
@@ -944,15 +954,17 @@ font-size: 15px;
 /*----------- section contact-------------------- */
 .section-contact{
   width: 100%;
+  padding-top: 100px;
   height: auto;
+  
 }
 .section-contact h2{
-  text-align: center;
   color: #333;
   font-size:48px;
   font-weight:400;
   margin-bottom: 50px;
   padding: 70px 0 0 300px;
+  text-align: center;
 }
 .section-contact h2 strong{
   font-weight: 900;
@@ -961,6 +973,7 @@ font-size: 15px;
   margin: 0 auto;
   width: 70%;
   padding-left: 300px;
+  padding-top: 70px;
 }
 .form-groupe{
   position: relative;
