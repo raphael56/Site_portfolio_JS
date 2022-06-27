@@ -431,7 +431,6 @@ h1 {
   flex-shrink: 0;
   padding-left: 300px;
 }
-
 .pres-gauche {
   width: 600px;
   flex-shrink: 0;
@@ -463,10 +462,10 @@ h1 {
 }
 .chiffre-style {
   font-family: "Abril Fatface", sans-serif;
-  font-size: 40px;
+  font-size: 27px;
 }
 .txt-liste {
-  font-size: 27px;
+  font-size: 20px;
   display: inline;
 }
 
@@ -531,7 +530,7 @@ h1 {
     font-size: 30px;
   }
   .txt-liste {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 
@@ -696,24 +695,24 @@ h1 {
   border-radius: 5px;
 }
 .b1 {
-  width: 90%;
+  width: 70%;
 }
 .b2 {
-  width: 50%;
+  width: 70%;
   background: rgb(243, 237, 146);
 }
 .b3 {
-  width: 90%;
+  width: 30%;
 }
 .b4 {
-  width: 10%;
+  width: 30%;
   background: rgb(243, 237, 146);
 }
 .b5 {
   width: 80%;
 }
 .b6 {
-  width: 70%;
+  width: 20%;
   background: rgb(243, 237, 146);
 }
 .label-skill {
